@@ -1,42 +1,47 @@
-# Artificial Intellence Co-Piloted Auditing
+# Artificial Intelligence Co-Piloted Auditing
 
-Welcome to the GitHub repository of the *Artificial Intelligence Co-Piloted Auditing* paper. This repository contains the prompt protocols used in our experiments on how auditors and foundation models work together to accomplish audit tasks.
+Welcome to the official GitHub repository for the *Artificial Intelligence Co-Piloted Auditing* research paper. This repository maintains the prompt protocols implemented in our experiments, demonstrating the collaborative auditing tasks accomplished by auditors and foundation models.
 
-## Paper Overview
+## About the Paper
 
-![Test](./assets/vis_001_copiloted_auditing.png)
+<p align="left">
+  <img src="./assets/vis_001_copiloted_auditing.png" alt="Co-Piloted Auditing" width="500">
+  <br>
+  <i>Figure: Co-piloted auditing, wherein human auditors collaborate with foundation AI models to accomplish audit tasks.</i>
+</p>
 
-Artificial Intelligence Co-Piloted Auditing represents a paradigm shift in the auditing profession. In this setup, the auditor collaboratively works with a foundation model, each contributing their unique strengths to the audit process. This approach combines the auditor's client-specific knowledge and professional judgement with the foundation model's capability to process large amounts of data and identify patterns.
+In this study, we propose the concept of artificial intelligence co-piloted auditing, emphasizing the collaborative potential of auditors and foundation models, such as LaMDA, DALL-E, and GPT-4, in the auditing domain. We imagine an audit setup where human auditors' capabilities are enhanced through artificial intelligence, facilitating optimal outcomes across a variety of audit tasks:
 
->- The foundation model, trained on vast amounts of non-client specific exogenous data (e.g., financial news, financial reports, or satellite imagery), provides a broad knowledge base and multi-task capabilities. It processes large data sets, identifies patterns, and conducts initial assessments or projections, thereby supporting the auditor's decision-making process.
+- The **foundation model**, with its proficiency in handling extensive non-client specific exogenous data (*e.g.,* financial news, financial reports, satellite imagery), offers a broad knowledge base and multi-tasking capabilities. It discerns patterns, conducts preliminary assessments or projections from large data sets, thereby enriching the auditor's decision-making process.
 
->- The auditor, on the other hand, utilizes client-specific endogenous data (e.g., journal entries, bank statements, or contracts) to provide contextual understanding, apply generally accepted audit principles, and exercise professional judgement. This in turn guides the foundation model's analysis and knowledge application.
+- The **human auditor**, conversely, applies professional judgment and a deep understanding of client-specific endogenous data (*e.g.,* journal entries, bank statements, contracts) for contextual interpretation and application of widely accepted audit principles, thereby guiding the foundation model's analysis and knowledge application.
 
-## Repository Structure and Usage
+In this overarching co-pilot setup, the auditor and the foundation model do not merely act as users and tools; they are collaboratively navigating the audit together in continuous and iterative dialogue. To exemplify the potential of this co-piloted audit paradigm, we illustrate a systematic fine-tuning approach of foundation models using chain-of-thought prompting that enables instruction learning, in-context learning, and sequential reasoning. We demonstrate the potential of co-piloted auditing, by fine-tuning GPT-4 using OpenAI's ChatGPT interface towards three different audit tasks namely financial ratio analysis, text mining, and journal entry testing. 
 
-This repository contains three distinct prompt protocols used in our experiments:
+This work reflects early work-in-progress. We warmly welcome your contributions and feedback! Feel free to suggest your own prompt protocols, raise issues, or submit pull requests. The authors are responsible for the content creation, while GPT-4 (ChatGPT) has been employed in the proofreading.
 
-1. `Prompt_Protocol_A.md`: This ChatGPT protocol is designed for fine-tuning the GPT-4 model to conduct financial ratio analysis.
-2. `Prompt_Protocol_B.md`: This OpenAI Playground protocol is intended for fine-tuning the GPT-4 model to perform a post-implementation review. 
-3. `Prompt_Protocol_C.md`: This ChatGPT protocol is used for fine-tuniing the GPT-4 model to detect anomalies in journal entry data. 
+## Repository Structure
 
-Each protocol provides detailed instructions for the auditor to interact with the foundation model to accomplish a specific audit task. To use these protocols, simply follow the instructions provided in each file. They guide the ChatGPT interaction between the auditor and the OpenAI's GPT-4 foundation model, from task initiation to conclusion.
+We provide a detailed description of the formulated prompt protocols and the corresponding responses generated by ChatGPT, ensuring reproducibility. This repository encompasses three distinct prompt protocols used in our experiments:
 
-## Contributions
+1. Experiment A [`Prompt_Protocol_A.md`](./protocols/Prompt_Protocol_A.md): Fine-tuning protocol for the GPT-4 model, targeting financial ratio analysis.
+2. Experiment B [`Prompt_Protocol_B.md`](./protocols/Prompt_Protocol_B.md): Fine-tuning protocol for the GPT-4 model, focusing on post-implementation review.
+3. Experiment C [`Prompt_Protocol_C.md`](./protocols/Prompt_Protocol_C.md): Fine-tuning protocol for the GPT-4 model, aiming at detecting anomalies in journal entry data.
 
-Your contributions and feedback are welcome! Please feel free to share you prompt protocols create an issue or submit a pull request.
 
-## License
+Each protocol presents comprehensive instructions for auditors to interact with the foundation model, guiding the ChatGPT interaction from task initiation to completion. We envision this work as an initial step towards the widespread implementation of co-piloted auditing, paving the way for more efficient, accurate, and insightful audit procedures.
 
-This project is licensed under the terms of the MIT license.
+## Usage
 
-## Referencing This Work
+To utilize these protocols, follow the instructions detailed in each file. They have been designed to guide you through the interaction process with OpenAI's GPT-4 foundation model.
 
-If this project contributes to your research, or if you'd like to reference our work, please use the following citation:
+## Citing This Work
+
+If our work contributes to your research, or you find it worthy of citation, please use:
 
 H. Gu, M. Schreyer, K. Moffitt, and M.A. Vasarhelyi, *Artificial Intelligence Co-Piloted Auditing*, Social Science Research Network (SSRN), 2023.
 
-For BibTeX users, you can cite this project as follows:
+For BibTeX users:
 
 ```bibtex
 @misc{gu2023artificial,
@@ -47,3 +52,8 @@ For BibTeX users, you can cite this project as follows:
   note={Preprint},
   url={URL_of_the_Paper_on_SSRN}
 }
+```
+
+## License
+
+This project is licensed under the terms of the MIT license. See the [LICENSE](LICENSE) file for details.
