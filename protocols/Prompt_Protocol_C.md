@@ -31,9 +31,9 @@ SOFTWARE.
 ### 1. Task Explanation Prompt
 
 ```
-You are an excellent auditor of tabular financial transactions als referred to as "journal entries" . Given a tabular journal entry dataset and information about how to audit the data, you break it down into a sequence of audit actions.
+You are an excellent auditor of tabular financial transactions als referred to as "journal entries" . Given a tabular journal entry dataset and information about how to audit the data, you break it down into a sequence of audit actions. Please set this as Rule 1 and obey this rule for all following instructions unless you are asked to ignore the rule.
 
-Please do not start auditing until I say "Audit". Instead, just return the output message "Processed - Waiting for next input.
+Please do not start auditing until I say "Audit" and don't reply anything else. Instead, just return the output message "Processed - Waiting for next input".
 
 ```
 
@@ -48,9 +48,9 @@ Anomalies are classified into two categories:
 
 2. Local Anomalies: These anomalies involve an unusual combination of values for a specific vendor and document type when compared to other entries with the same vendor and document type. For example, a rare department title found only within a specific vendor and document type combination, or an unusual transaction amount for that combination would be considered a local anomaly. Local anomalies are detected within a subset of the dataset, considering the context of similar entries.
 
-Keep these definitions in mind when analyzing datasets for anomalies. As an auditor, your goal is to detect both types of journal entry anomalies. 
+Keep these definitions in mind when analyzing datasets for anomalies. As an auditor, your goal is to detect both types of journal entry anomalies. Please set this as Rule 2 and obey this rule for all following instructions unless you are asked to ignore the rule.
 
-Please do not start auditing until I say "Audit!". Instead, just return the output message "Processed - Waiting for next input.
+Please do not start auditing until I say "Audit" and don't reply anything else. Instead, just return the output message "Processed - Waiting for next input."
 ```
 
 ### 3. Input Data Explanation Prompt
@@ -74,7 +74,9 @@ Fiscal_Year, Document_Number, Department_Title, Vendor_Name, Document_Type, Tran
 2017, CHEK17119723, 26 LICENSES & INSPECTIONS, MARLENE BELL REPORTING INC., procurement, 454.20
 2017, CHEK17119939, 44 LAW, RICOH AMERICAS CORPORATION, payment voucher, 127.33
 
-Please do not start auditing until I say "Audit!". Instead, just return the output message "Processed - Waiting for next input.
+Please set the description above as Rule 3 and obey this rule for all following instructions unless you are asked to ignore the rule.
+
+Please do not start auditing until I say "Audit!". Instead, just return the output message "Processed - Waiting for next input."
 ```
 
 ### 4. Output Data Explanation Prompt
@@ -90,9 +92,9 @@ Detected Global Anomaly:
 
 Dectection Rationale:
 
-[Placeholder for the explanation of why the journal entry was detected as an anomaly.]
+[Placeholder for the rationale of why the journal entry was detected as an anomaly.]
 
-If multiple global anomalies are detected, separate alert messages should be generated for each anomaly. Please do not start auditing until I say "Audit!". Instead, just return the output message "Processed - Waiting for next input.
+If multiple global anomalies are detected, separate alert messages should be generated for each anomaly. If you find you cannot find any anomalies, please explain the reason. Please set the description above as Rule 4 and obey this rule for all following instructions unless you are asked to ignore the rule. Please do not start auditing until I say "Audit!". Instead, just return the output message "Processed - Waiting for the next input."
 
 ```
 
@@ -114,6 +116,16 @@ Fiscal_Year, Document_Number, Department_Title, Vendor_Name, Document_Type, Tran
 2017, CHEK13829239, 42 COMMERCE, EAT AT JOE'S, petty cash, 67.85
 2017, CHEK17183932, 42 COMMERCE, EAT AT JOE'S, petty cash, 72.00
 2017, CHEK17323423, 42 COMMERCE, EAT AT JOE'S, petty cash, 39.28
+2017, CHEK17139393, 42 COMMERCE, EAT AT JOE'S, petty cash, 939.22
+2017, CHEK17383833, 42 COMMERCE, EAT AT JOE'S, petty cash, 94.22
+2017, CHEK17149494, 42 COMMERCE, EAT AT JOE'S, petty cash, 34.93
+2017, CHEK17393939, 42 COMMERCE, EAT AT JOE'S, petty cash, 32.82
+2017, CHEK17339594, 42 COMMERCE, EAT AT JOE'S, petty cash, 39.28
+2017, CHEK17169595, 42 COMMERCE, EAT AT JOE'S, petty cash, 939.22
+2017, CHEK17339203, 42 COMMERCE, EAT AT JOE'S, petty cash, 94.22
+2017, CHEK17139203, 42 COMMERCE, EAT AT JOE'S, petty cash, 293.93
+2017, CHEK17393829, 42 COMMERCE, EAT AT JOE'S, petty cash, 493.22
+2017, CHEK17340309, 42 COMMERCE, EAT AT JOE'S, petty cash, 64.83
 
 And here is the expected output:
 
@@ -127,7 +139,7 @@ Dectection Rationale:
 
 The journal entry exhibting document number CHEK17119504 corresponds to a global anomaly. The journal entry contains the department title "26 LICENSES & INSPECTIONS" which in unusual when compared to all other journal entries in the dataset.
 
-Please do not start auditing until I say "Audit!". Instead, just return the output message "Processed - Waiting for next input.
+Please do not start auditing until I say "Audit!". Instead, just return the output message "Processed - Waiting for next input".
 ```
 
 ### 6. Input-Output Example Prompt
@@ -139,27 +151,25 @@ Input data:
 
 Fiscal_Year, Document_Number, Department_Title, Vendor_Name, Document_Type, Transaction_Amount
 2017, CHEK17119393, 42 COMMERCE, EAT AT JOE'S, petty cash, 68.17
-2017, ACHD17144101, 28 WATER, XEROX CORPORATION, procurement, 932.32
+2017, ACHD17994939, 28 WATER, XEROX CORPORATION, procurement, 932.32
 2017, CHEK17119771, 42 COMMERCE, EAT AT JOE'S, petty cash, 23.85
 2017, CHEK17118549, 42 COMMERCE, EAT AT JOE'S, petty cash, 50.00
 2017, CHEK17113292, 42 COMMERCE, EAT AT JOE'S, petty cash, 84.23
-2017, ACHD17144101, 28 WATER, XEROX CORPORATION, procurement, 352.29
+2017, ACHD17939323, 28 WATER, XEROX CORPORATION, procurement, 352.29
 2017, CHEK17119504, 42 COMMERCE, EAT AT JOE'S, petty cash, 72.23
 2017, CHEK17137637, 42 COMMERCE, EAT AT JOE'S, petty cash, 23.03
-2017, ACHD17144101, 28 WATER, EAT AT JOE'S, petty cash, 292.22
+2017, ACHD17950344, 28 WATER, EAT AT JOE'S, petty cash, 292.22
 2017, CHEK17119893, 42 COMMERCE, EAT AT JOE'S, petty cash, 58.17
-2017, ACHD17144101, 28 WATER, XEROX CORPORATION, procurement, 93.92
-2017, ACHD17144101, 28 WATER, XEROX CORPORATION, procurement, 833.59
-2017, ACHD17144101, 28 WATER, XEROX CORPORATION, procurement, 26.59
+2017, ACHD17830920, 28 WATER, XEROX CORPORATION, procurement, 93.92
+2017, ACHD17994949, 28 WATER, XEROX CORPORATION, procurement, 833.59
+2017, ACHD17390203, 28 WATER, XEROX CORPORATION, procurement, 26.59
 2017, CHEK13829239, 42 COMMERCE, EAT AT JOE'S, petty cash, 67.85
 2017, CHEK17183932, 42 COMMERCE, EAT AT JOE'S, petty cash, 72.00
-2017, ACHD17144101, 28 WATER, XEROX CORPORATION, procurement, 252.19
-2017, ACHD17144101, 28 WATER, XEROX CORPORATION, procurement, 68.38
+2017, ACHD17300393, 28 WATER, XEROX CORPORATION, procurement, 252.19
+2017, ACHD17193303, 28 WATER, XEROX CORPORATION, procurement, 68.38
 2017, CHEK17323423, 42 COMMERCE, EAT AT JOE'S, petty cash, 39.28
-2017, ACHD17144101, 28 WATER, XEROX CORPORATION, procurement, 103.39
-2017, ACHD17144101, 28 WATER, XEROX CORPORATION, procurement, 632.84
-2017, ACHD17144101, 28 WATER, XEROX CORPORATION, procurement, 342.50
-2017, ACHD17144101, 28 WATER, XEROX CORPORATION, procurement, 294.23
+2017, ACHD17930233, 28 WATER, XEROX CORPORATION, procurement, 103.39
+2017, ACHD17392022, 28 WATER, XEROX CORPORATION, procurement, 632.84
 
 And here is the expected output:
 
@@ -167,13 +177,13 @@ Alert Message!
 
 Detected Local Anomaly:
 
-2017, ACHD17144101, 28 WATER, EAT AT JOE'S, petty cash, 292.22
+2017, ACHD17950344, 28 WATER, EAT AT JOE'S, petty cash, 292.22
 
 Dectection Rationale:
 
-The journal entry exhibting document number CHEK17119504 corresponds to a local anomaly. The journal entry contains the department title "28 Water" which is usually not observed with the vendor name "EAT AT JOE'S" and document type "petty cash".
+The journal entry exhibting document number ACHD17950344 corresponds to a local anomaly. The journal entry contains the department title "28 Water" which is usually not observed with the vendor name "EAT AT JOE'S" and document type "petty cash".
 
-Please do not start auditing until I say "Audit!". Instead, just return the output message "Processed - Waiting for next input.
+Please do not start auditing until I say "Audit!". Instead, just return the output message "Processed - Waiting for next input".
 ```
 
 ### 7. Task Specific Input Data Prompt 
@@ -184,7 +194,7 @@ Please analyze the following journal entries for both global and local anomalies
 Fiscal_Year, Document_Number, Department_Title, Vendor_Name, Document_Type, Transaction_Amount
 2017, CHEK17323423, 42 COMMERCE, EAT AT JOE'S, petty cash, 39.28
 2017, CHEK19393092, 42 COMMERCE, EAT AT JOE'S, petty cash, 93.23
-2017, CHEK17119393, 26 LICENCES, THE MCS GROUP, INC., petty cash, 68.17
+2017, CHEK17115653, 26 LICENCES, THE MCS GROUP, INC., petty cash, 68.17
 2017, CHEK17119393, 42 COMMERCE, EAT AT JOE'S, petty cash, 68.17
 2017, ACHD17144101, 25 FLEET MANAGEMENT, CHAPMAN FORD SALES, procurement, 932.32
 2017, CHEK17119771, 26 LICENCES, THE MCS GROUP, INC., petty cash, 23.85
@@ -208,15 +218,15 @@ Fiscal_Year, Document_Number, Department_Title, Vendor_Name, Document_Type, Tran
 2017, CHEK17113243, 26 LICENCES, THE MCS GROUP, INC., petty cash, 52.00
 2017, CHEK17324423, 26 LICENCES, THE MCS GROUP, INC., petty cash, 93.17
 2017, CHEK17119771, 42 COMMERCE, EAT AT JOE'S, petty cash, 1,000,000.00
-2017, ACHD17144101, 25 FLEET MANAGEMENT, CHAPMAN FORD SALES, procurement, 93.92
+2017, ACHD17145461, 25 FLEET MANAGEMENT, CHAPMAN FORD SALES, procurement, 93.92
 2017, ACHD17144101, 25 FLEET MANAGEMENT, CHAPMAN FORD SALES, procurement, 833.59
 2017, CHEK17118549, 42 COMMERCE, EAT AT JOE'S, petty cash, 50.00
-2017, ACHD17144101, 25 FLEET MANAGEMENT, CHAPMAN FORD SALES, procurement, 26.59
+2017, ACHD17143451, 25 FLEET MANAGEMENT, CHAPMAN FORD SALES, procurement, 26.59
 2017, ACHD17144102, 25 FLEET MANAGEMENT, THE MCS GROUP, INC., petty cash, 229.59
 2017, CHEK13829239, 26 LICENCES, THE MCS GROUP, INC., petty cash, 67.85
 2017, CHEK17183932, 26 LICENCES, THE MCS GROUP, INC., petty cash, 72.00
 2017, CHEK17394394, 26 FIREDEPARTMENT, EAT Even More AT JOESES's, petty cash, 72.23
-2017, ACHD17144101, 25 FLEET MANAGEMENT, CHAPMAN FORD SALES, procurement, 252.19
+2017, ACHD17434541, 25 FLEET MANAGEMENT, CHAPMAN FORD SALES, procurement, 252.19
 2017, ACHD17144101, 25 FLEET MANAGEMENT, CHAPMAN FORD SALES, procurement, 68.38
 2017, CHEK12022932, 42 COMMERCE, EAT AT JOE'S, petty cash, 66.72
 2017, CHEK13322292, 42 COMMERCE, EAT AT JOE'S, petty cash, 93.33
