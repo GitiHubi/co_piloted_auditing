@@ -1,6 +1,6 @@
 # Artificial Intelligence Co-Piloted Auditing
 
-🚀 Welcome to the official GitHub repository for the *Artificial Intelligence Co-Piloted Auditing* research paper. This project is a collaboration 🤝 between the [Accounting Research Center at Rutgers University](http://raw.rutgers.edu) and the [Institute of Computer Science at the University of St. Gallen](https://www.ics.unisg.ch/). 
+🚀 Welcome to the official GitHub repository for the [Artificial Intelligence Co-Piloted Auditing](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4444763) research ([abstract](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4444763), [pdf](https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID4444763_code5066211.pdf?abstractid=4444763&mirid=1)). This project is a collaboration 🤝 between the [Accounting Research Center at Rutgers University](http://raw.rutgers.edu) and the [Institute of Computer Science at the University of St. Gallen](https://www.ics.unisg.ch/). 
 
 This repository maintains the prompt protocols implemented in our experiments, demonstrating the collaborative auditing tasks accomplished by auditors 👩‍💼👨‍💼 and AI 🧠 foundation models. Join us 🙋‍♀️🙋‍♂️ as we explore the limitless possibilities 🌌 of combining human expertise with AI potential in auditing. 
 
