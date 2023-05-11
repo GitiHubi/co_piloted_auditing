@@ -7,7 +7,7 @@ Welcome to the official GitHub repository for the *Artificial Intelligence Co-Pi
 <p align="left">
   <img src="./assets/vis_001_copiloted_auditing.png" alt="Co-Piloted Auditing" width="500">
   <br>
-  <i>Figure: Co-piloted auditing, wherein human auditors collaborate with foundation AI models to accomplish audit tasks. In such a setting, human auditors and models form a highly collaborative partnership, capitalizing on each other's strengths to deliver comprehensive and accurate audits.</i>
+  <i>Figure: Co-piloted auditing, wherein human auditors collaborate with foundation AI models to accomplish audit tasks.</i>
 </p>
 
 Our paper, *Artificial Intelligence Co-Piloted Auditing*, explores a new paradigm in the auditing profession, where auditors and foundation models collaborate, leveraging their distinct strengths:
