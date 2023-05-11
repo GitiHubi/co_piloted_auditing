@@ -41,7 +41,7 @@ For BibTeX users, you can cite this project as follows:
   howpublished={Social Science Research Network (SSRN)},
   note={Preprint},
   url={URL_of_the_Paper_on_SSRN}
-}
+}```
 
 ## Contributions
 
