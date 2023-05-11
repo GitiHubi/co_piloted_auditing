@@ -34,10 +34,6 @@ Each protocol presents comprehensive instructions for auditors to interact with 
 
 To utilize these protocols, follow the instructions detailed in each file. They have been designed to guide you through the interaction process with OpenAI's GPT-4 foundation model.
 
-## License
-
-This project is licensed under the terms of the MIT license. See the [LICENSE](LICENSE) file for details.
-
 ## Citing This Work
 
 If our work contributes to your research, or you find it worthy of citation, please use:
@@ -55,3 +51,7 @@ For BibTeX users:
   note={Preprint},
   url={URL_of_the_Paper_on_SSRN}
 }
+
+## License
+
+This project is licensed under the terms of the MIT license. See the [LICENSE](LICENSE) file for details.
