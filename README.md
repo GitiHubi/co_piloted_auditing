@@ -8,9 +8,9 @@ Welcome to the GitHub repository of the *Artificial Intelligence Co-Piloted Audi
 
 Artificial Intelligence Co-Piloted Auditing represents a paradigm shift in the auditing profession. In this setup, the auditor collaboratively works with a foundation model, each contributing their unique strengths to the audit process. This approach combines the auditor's client-specific knowledge and professional judgement with the foundation model's capability to process large amounts of data and identify patterns.
 
-The foundation model, trained on vast amounts of non-client specific exogenous data (e.g., financial news, financial reports, or satellite imagery), provides a broad knowledge base and multi-task capabilities. It processes large data sets, identifies patterns, and conducts initial assessments or projections, thereby supporting the auditor's decision-making process.
+>- The foundation model, trained on vast amounts of non-client specific exogenous data (e.g., financial news, financial reports, or satellite imagery), provides a broad knowledge base and multi-task capabilities. It processes large data sets, identifies patterns, and conducts initial assessments or projections, thereby supporting the auditor's decision-making process.
 
-The auditor, on the other hand, utilizes client-specific endogenous data (e.g., journal entries, bank statements, or contracts) to provide contextual understanding, apply generally accepted audit principles, and exercise professional judgement. This in turn guides the foundation model's analysis and knowledge application.
+>- The auditor, on the other hand, utilizes client-specific endogenous data (e.g., journal entries, bank statements, or contracts) to provide contextual understanding, apply generally accepted audit principles, and exercise professional judgement. This in turn guides the foundation model's analysis and knowledge application.
 
 ## Repository Structure and Usage
 
