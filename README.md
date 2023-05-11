@@ -40,12 +40,12 @@ H. Gu, M. Schreyer, K. Moffitt, and M.A. Vasarhelyi, *Artificial Intelligence Co
 
 For BibTeX users, you can cite this project as follows:
 
-`bibtex
-@misc{gu2023artificial,
-  title={Artificial Intelligence Co-Piloted Auditing},
-  author={Gu, H. and Schreyer, M. and Moffitt, K. and Vasarhelyi, M.A.},
-  year={2023},
-  howpublished={Social Science Research Network (SSRN)},
-  note={Preprint},
+```bibtex
+@misc{gu2023artificial,<br>
+  title={Artificial Intelligence Co-Piloted Auditing},<br>
+  author={Gu, H. and Schreyer, M. and Moffitt, K. and Vasarhelyi, M.A.},<br>
+  year={2023},<br>
+  howpublished={Social Science Research Network (SSRN)},<br>
+  note={Preprint},<br>
   url={URL_of_the_Paper_on_SSRN}
-}`
+}
