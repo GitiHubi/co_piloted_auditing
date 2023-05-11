@@ -50,7 +50,7 @@ For BibTeX users:
   howpublished={Social Science Research Network (SSRN)},
   note={Preprint},
   url={URL_of_the_Paper_on_SSRN}
-}
+}```
 
 ## License
 
