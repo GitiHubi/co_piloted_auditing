@@ -1,5 +1,5 @@
 
-# Experiment C: Journal Entry Testing Prompt Protocol
+# Experiment C: Journal Entry Testing - Prompt Protocol
 
 This protocol outlines the process for auditing tabular financial transactions, also referred to as "journal entries".
 
@@ -7,7 +7,7 @@ This protocol outlines the process for auditing tabular financial transactions, 
 
 
 Copyright (c) 2023 Continous Audit and Reporting (CAR) Lab 
-at Rutgers University, 1 Washington Park, NJ, USA
+at Rutgers University, 1 Washington Park, NJ, USA.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
