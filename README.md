@@ -12,9 +12,9 @@ Welcome to the official GitHub repository for the *Artificial Intelligence Co-Pi
 
 In this paper we explore a new paradigm in the auditing profession, where auditors and foundation models collaborate:
 
-- The foundation model, with its proficiency in handling extensive non-client specific exogenous data (*e.g.,* financial news, financial reports, satellite imagery), offers a broad knowledge base and multi-tasking capabilities. It discerns patterns, conducts preliminary assessments or projections from large data sets, thereby enriching the auditor's decision-making process.
+- The **foundation model**, with its proficiency in handling extensive non-client specific exogenous data (*e.g.,* financial news, financial reports, satellite imagery), offers a broad knowledge base and multi-tasking capabilities. It discerns patterns, conducts preliminary assessments or projections from large data sets, thereby enriching the auditor's decision-making process.
 
-- The auditor, conversely, applies professional judgment and a deep understanding of client-specific endogenous data (*e.g.,* journal entries, bank statements, contracts) for contextual interpretation and application of widely accepted audit principles, thereby guiding the foundation model's analysis and knowledge application.
+- The **human auditor*, conversely, applies professional judgment and a deep understanding of client-specific endogenous data (*e.g.,* journal entries, bank statements, contracts) for contextual interpretation and application of widely accepted audit principles, thereby guiding the foundation model's analysis and knowledge application.
 
 In this overarching co-pilot setup, the auditor and the foundation model do not merely act as users and tools; they are collaboratively navigating the audit together in continuous and iterative dialogue.
 
