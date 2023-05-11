@@ -4,7 +4,7 @@ Welcome to the GitHub repository of the *Artificial Intelligence Co-Piloted Audi
 
 ## Paper Overview
 
-![Qualitative comparison of ours segmentation results with different methods (ours: SwinUNet SSL-ft)](results.jpg)
+![Test](./assets/vis_001_copiloted_auditing.png)
 
 Artificial Intelligence Co-Piloted Auditing represents a paradigm shift in the auditing profession. In this setup, the auditor collaboratively works with a foundation model, each contributing their unique strengths to the audit process. This approach combines the auditor's client-specific knowledge and professional judgement with the foundation model's capability to process large amounts of data and identify patterns.
 
