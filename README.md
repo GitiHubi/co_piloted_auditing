@@ -1,8 +1,8 @@
 # Artificial Intelligence Co-Piloted Auditing
 
-🚀 Welcome to the official GitHub repository for the *Artificial Intelligence Co-Piloted Auditing* research paper. This project is a collaboration 🤝 between the [Accounting Research Center at Rutgers University](http://raw.rutgers.edu) and the [Institute of Computer Science at the University of St. Gallen](https://www.ics.unisg.ch/). 
+🚀 Welcome to the official GitHub repository for the [Artificial Intelligence Co-Piloted Auditing](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4444763) research. This project is a collaboration 🤝 between the [Accounting Research Center at Rutgers University](http://raw.rutgers.edu) and the [Institute of Computer Science at the University of St. Gallen](https://www.ics.unisg.ch/). 
 
-This repository maintains the prompt protocols implemented in our experiments, demonstrating the collaborative auditing tasks accomplished by auditors 👩‍💼👨‍💼 and AI 🧠 foundation models. Join us 🙋‍♀️🙋‍♂️ as we explore the limitless possibilities 🌌 of combining human expertise with AI potential in auditing. 
+This repository maintains the prompt protocols implemented in our experiments, demonstrating the collaborative auditing tasks accomplished by auditors 👩‍💼👨‍💼 and artificial intelligence 🧠 foundation models. Join us 🙋‍♀️🙋‍♂️ as we explore the limitless possibilities 🌌 of combining human expertise with AI potential in auditing. The latest version of the paper can be obtained from SSRN via the following links: [Abstract](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4444763), [PDF](https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID4444763_code5066211.pdf?abstractid=4444763&mirid=1).
 
 ## About the Paper
 
@@ -12,7 +12,7 @@ This repository maintains the prompt protocols implemented in our experiments, d
   <i>Figure: Co-piloted auditing, wherein human auditors collaborate with foundation AI models to accomplish audit tasks.</i>
 </p>
 
-In this study, we propose the concept of artificial intelligence co-piloted auditing, emphasizing the collaborative potential of auditors and foundation models, such as [LaMDA](https://blog.google/technology/ai/lamda/), [DALL-E](https://openai.com/product/dall-e-2), [PaLM](https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html), and [GPT-4](https://openai.com/research/gpt-4), in the auditing domain. We imagine an audit setup where human auditors' capabilities are enhanced through artificial intelligence, facilitating optimal outcomes across a variety of audit tasks:
+In this study, we propose the concept of artificial intelligence co-piloted auditing, emphasizing the collaborative potential of auditors and [foundation models](https://www.economist.com/interactive/briefing/2022/06/11/huge-foundation-models-are-turbo-charging-ai-progress), such as [LaMDA](https://blog.google/technology/ai/lamda/), [DALL-E](https://openai.com/product/dall-e-2), [PaLM](https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html), and [GPT-4](https://openai.com/research/gpt-4), in the auditing domain. We imagine an audit setup where human auditors' capabilities are enhanced through artificial intelligence, facilitating optimal outcomes across a variety of audit tasks:
 
 - The **human auditor**, conversely, applies professional judgment and a deep understanding of client-specific endogenous data (*e.g.,* journal entries, bank statements, contracts) for contextual interpretation and application of widely accepted audit principles, thereby guiding the foundation model's analysis and knowledge application.
 
@@ -28,14 +28,14 @@ We provide a detailed description of the formulated prompt protocols and the cor
 
 1. **Experiment A:** Fine-tuning protocol for the GPT-4 model, targeting financial ratio analysis ([`Prompt_Protocol_A.md`](./protocols/Prompt_Protocol_A.md)).
 2. **Experiment B:** Fine-tuning protocol for the GPT-4 model, focusing on post-implementation review ([`Prompt_Protocol_B.md`](./protocols/Prompt_Protocol_B.md)).
-3. **Experiment C:** Fine-tuning protocol for the GPT-4 model, aiming at detecting anomalies in journal entry data ([`Prompt_Protocol_C.md`](./protocols/Prompt_Protocol_C.md)).
+3. **Experiment C:** Fine-tuning protocol for the GPT-4 model, aiming at journal entry testing ([`Prompt_Protocol_C.md`](./protocols/Prompt_Protocol_C.md)).
 
 
 Each protocol presents comprehensive instructions for auditors to interact with the foundation model, guiding the ChatGPT interaction from task initiation to completion. We envision this work as an initial step towards the widespread implementation of co-piloted auditing, paving the way for more efficient, accurate, and insightful audit procedures.
 
 ## Protocol Usage
 
-To make the most out of these protocols 🚀, simply follow the 📝 instructions detailed in each file. They've been designed to guide you 🧭 through the interaction process with OpenAI's [GPT-4](https://openai.com/research/gpt-4) foundation model 🤖 using [ChatGPT](https://chat.openai.com). Dive in and let the AI collaboration begin!
+To make the most out of these protocols 🚀, simply follow the 📝 instructions detailed in each file. They've been designed to guide you 🧭 through the interaction process with OpenAI's [GPT-4](https://openai.com/research/gpt-4) foundation model 🤖 using [ChatGPT](https://chat.openai.com) 💬. Dive in and let the AI collaboration begin!
 
 ## Citing This Work
 
