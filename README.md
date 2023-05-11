@@ -1,6 +1,6 @@
 # Artificial Intelligence Co-Piloted Auditing
 
-Welcome to the official GitHub repository for the *Artificial Intelligence Co-Piloted Auditing* research paper. This repository houses the prompt protocols implemented in our experiments, demonstrating the collaborative auditing tasks accomplished by auditors and foundation models.
+Welcome to the official GitHub repository for the *Artificial Intelligence Co-Piloted Auditing* research paper. This repository maintains the prompt protocols implemented in our experiments, demonstrating the collaborative auditing tasks accomplished by auditors and foundation models.
 
 ## About the Paper
 
@@ -10,11 +10,13 @@ Welcome to the official GitHub repository for the *Artificial Intelligence Co-Pi
   <i>Figure: Co-piloted auditing, wherein human auditors collaborate with foundation AI models to accomplish audit tasks.</i>
 </p>
 
-Our paper, *Artificial Intelligence Co-Piloted Auditing*, explores a new paradigm in the auditing profession, where auditors and foundation models collaborate, leveraging their distinct strengths:
+In this paper we explore a new paradigm in the auditing profession, where auditors and foundation models collaborate, leveraging their distinct strengths:
 
-- The foundation model, with its proficiency in handling extensive non-client specific exogenous data (e.g., financial news, financial reports, satellite imagery), offers a broad knowledge base and multi-tasking capabilities. It discerns patterns, conducts preliminary assessments or projections from large data sets, thereby enriching the auditor's decision-making process.
+- The foundation model, with its proficiency in handling extensive non-client specific exogenous data (*e.g.,* financial news, financial reports, satellite imagery), offers a broad knowledge base and multi-tasking capabilities. It discerns patterns, conducts preliminary assessments or projections from large data sets, thereby enriching the auditor's decision-making process.
 
-- The auditor, conversely, applies professional judgment and a deep understanding of client-specific endogenous data (e.g., journal entries, bank statements, contracts) for contextual interpretation and application of widely accepted audit principles, thereby guiding the foundation model's analysis and knowledge application.
+- The auditor, conversely, applies professional judgment and a deep understanding of client-specific endogenous data (*e.g.,* journal entries, bank statements, contracts) for contextual interpretation and application of widely accepted audit principles, thereby guiding the foundation model's analysis and knowledge application.
+
+In this overarching co-pilot setup, the auditor and the foundation model do not merely act as users and tools; they are collaboratively navigating the audit together in continuous and iterative dialogue.
 
 This work reflects early work-in-progress. We very much welcome feedback and comments. The authors are responsible for the content creation, while GPT-4 (ChatGPT) has been employed in the proofreading.
 
