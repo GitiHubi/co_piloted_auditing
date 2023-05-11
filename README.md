@@ -4,13 +4,15 @@ Welcome to the GitHub repository of the *Artificial Intelligence Co-Piloted Audi
 
 ## Paper Overview
 
+![Qualitative comparison of ours segmentation results with different methods (ours: SwinUNet SSL-ft)](results.jpg)
+
 Artificial Intelligence Co-Piloted Auditing represents a paradigm shift in the auditing profession. In this setup, the auditor collaboratively works with a foundation model, each contributing their unique strengths to the audit process. This approach combines the auditor's client-specific knowledge and professional judgement with the foundation model's capability to process large amounts of data and identify patterns.
 
 The foundation model, trained on vast amounts of non-client specific exogenous data (e.g., financial news, financial reports, or satellite imagery), provides a broad knowledge base and multi-task capabilities. It processes large data sets, identifies patterns, and conducts initial assessments or projections, thereby supporting the auditor's decision-making process.
 
 The auditor, on the other hand, utilizes client-specific endogenous data (e.g., journal entries, bank statements, or contracts) to provide contextual understanding, apply generally accepted audit principles, and exercise professional judgement. This in turn guides the foundation model's analysis and knowledge application.
 
-## Repository Structure
+## Repository Structure and Usage
 
 This repository contains three distinct prompt protocols used in our experiments:
 
@@ -18,15 +20,11 @@ This repository contains three distinct prompt protocols used in our experiments
 2. `Prompt_Protocol_B.md`: This OpenAI Playground protocol is intended for fine-tuning the GPT-4 model to perform a post-implementation review. 
 3. `Prompt_Protocol_C.md`: This ChatGPT protocol is used for fine-tuniing the GPT-4 model to detect anomalies in journal entry data. 
 
-Each protocol provides detailed instructions for the auditor to interact with the foundation model to accomplish a specific audit task.
-
-## Usage
-
-To use these protocols, simply follow the instructions provided in each file. They guide the interaction between the auditor and the foundation model, from task initiation to conclusion.
+Each protocol provides detailed instructions for the auditor to interact with the foundation model to accomplish a specific audit task. To use these protocols, simply follow the instructions provided in each file. They guide the ChatGPT interaction between the auditor and the OpenAI's GPT-4 foundation model, from task initiation to conclusion.
 
 ## Contributions
 
-Your contributions and feedback are welcome! Please feel free to create an issue or submit a pull request.
+Your contributions and feedback are welcome! Please feel free to share you prompt protocols create an issue or submit a pull request.
 
 ## License
 
