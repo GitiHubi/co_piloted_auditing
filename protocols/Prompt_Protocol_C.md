@@ -1,5 +1,5 @@
 
-# Experiment C: Journal Entries Audit Protocols
+# Experiment C: Journal Entry Testing Prompt Protocol
 
 This protocol outlines the process for auditing tabular financial transactions, also referred to as "journal entries".
 
