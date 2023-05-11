@@ -6,7 +6,8 @@ This protocol outlines the process for auditing tabular financial transactions, 
 ## MIT License
 
 
-Copyright (c) 2023 OpenAI
+Copyright (c) 2023 Continous Audit and Reporting (CAR) Lab 
+at Rutgers University, 1 Washington Park, NJ, USA
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
