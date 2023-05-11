@@ -1,10 +1,10 @@
-# Co-Piloted Auditing: A New Paradigm
+# Artificial Intellence Co-Piloted Auditing
 
-Welcome to the repository of our project on Co-Piloted Auditing. This repository contains the prompt protocols used in our experiments on how auditors and foundation models work together to accomplish audit tasks.
+Welcome to the GitHub repository of the *Artificial Intelligence Co-Piloted Auditing* paper. This repository contains the prompt protocols used in our experiments on how auditors and foundation models work together to accomplish audit tasks.
 
-## Project Overview
+## Paper Overview
 
-Co-Piloted Auditing represents a paradigm shift in the auditing profession. In this setup, the auditor collaboratively works with a foundation model, each contributing their unique strengths to the audit process. This approach combines the auditor's client-specific knowledge and professional judgement with the foundation model's capability to process large amounts of data and identify patterns.
+Artificial Intelligence Co-Piloted Auditing represents a paradigm shift in the auditing profession. In this setup, the auditor collaboratively works with a foundation model, each contributing their unique strengths to the audit process. This approach combines the auditor's client-specific knowledge and professional judgement with the foundation model's capability to process large amounts of data and identify patterns.
 
 The foundation model, trained on vast amounts of non-client specific exogenous data (e.g., financial news, financial reports, or satellite imagery), provides a broad knowledge base and multi-task capabilities. It processes large data sets, identifies patterns, and conducts initial assessments or projections, thereby supporting the auditor's decision-making process.
 
@@ -24,7 +24,14 @@ Each protocol provides detailed instructions for the auditor to interact with th
 
 To use these protocols, simply follow the instructions provided in each file. They guide the interaction between the auditor and the foundation model, from task initiation to conclusion.
 
-Copy code
+## Contributions
+
+Your contributions and feedback are welcome! Please feel free to create an issue or submit a pull request.
+
+## License
+
+This project is licensed under the terms of the MIT license.
+
 ## Referencing This Work
 
 If this project contributes to your research, or if you'd like to reference our work, please use the following citation:
@@ -33,7 +40,7 @@ H. Gu, M. Schreyer, K. Moffitt, and M.A. Vasarhelyi, *Artificial Intelligence Co
 
 For BibTeX users, you can cite this project as follows:
 
-```bibtex
+`bibtex
 @misc{gu2023artificial,
   title={Artificial Intelligence Co-Piloted Auditing},
   author={Gu, H. and Schreyer, M. and Moffitt, K. and Vasarhelyi, M.A.},
@@ -41,12 +48,4 @@ For BibTeX users, you can cite this project as follows:
   howpublished={Social Science Research Network (SSRN)},
   note={Preprint},
   url={URL_of_the_Paper_on_SSRN}
-}```
-
-## Contributions
-
-Your contributions and feedback are welcome! Please feel free to create an issue or submit a pull request.
-
-## License
-
-This project is licensed under the terms of the MIT license.
+}`
