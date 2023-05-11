@@ -6,8 +6,6 @@ This protocol outlines the process for auditing tabular financial transactions, 
 ## MIT License
 
 
-MIT License
-
 Copyright (c) 2023 OpenAI
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -129,7 +127,7 @@ Dectection Rationale:
 The journal entry exhibting document number CHEK17119504 corresponds to a global anomaly. The journal entry contains the department title "26 LICENSES & INSPECTIONS" which in unusual when compared to all other journal entries in the dataset.
 
 Please do not start auditing until I say "Audit!". Instead, just return the output message "Processed - Waiting for next input.
-
+```
 
 ### 6. Input-Output Example Prompt
 
@@ -176,7 +174,6 @@ The journal entry exhibting document number CHEK17119504 corresponds to a local 
 
 Please do not start auditing until I say "Audit!". Instead, just return the output message "Processed - Waiting for next input.
 ```
-
 
 ### 7. Task Specific Input Data Prompt 
 
