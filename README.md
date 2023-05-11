@@ -35,7 +35,7 @@ Each protocol presents comprehensive instructions for auditors to interact with 
 
 ## Protocol Usage
 
-To make the most out of these protocols 🚀, simply follow the 📝 instructions detailed in each file. They've been designed to guide you 🧭 through the interaction process with OpenAI's [GPT-4](https://openai.com/research/gpt-4) foundation model 🤖 using [ChatGPT](https://chat.openai.com)💬. Dive in and let the AI collaboration begin!
+To make the most out of these protocols 🚀, simply follow the 📝 instructions detailed in each file. They've been designed to guide you 🧭 through the interaction process with OpenAI's [GPT-4](https://openai.com/research/gpt-4) foundation model 🤖 using [ChatGPT](https://chat.openai.com) 💬. Dive in and let the AI collaboration begin!
 
 ## Citing This Work
 
