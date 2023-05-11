@@ -28,7 +28,7 @@ We provide a detailed description of the formulated prompt protocols and the cor
 
 1. **Experiment A:** Fine-tuning protocol for the GPT-4 model, targeting financial ratio analysis ([`Prompt_Protocol_A.md`](./protocols/Prompt_Protocol_A.md)).
 2. **Experiment B:** Fine-tuning protocol for the GPT-4 model, focusing on post-implementation review ([`Prompt_Protocol_B.md`](./protocols/Prompt_Protocol_B.md)).
-3. **Experiment C:** Fine-tuning protocol for the GPT-4 model, aiming at detecting anomalies in journal entry data ([`Prompt_Protocol_C.md`](./protocols/Prompt_Protocol_C.md)).
+3. **Experiment C:** Fine-tuning protocol for the GPT-4 model, aiming at journal entry testing ([`Prompt_Protocol_C.md`](./protocols/Prompt_Protocol_C.md)).
 
 
 Each protocol presents comprehensive instructions for auditors to interact with the foundation model, guiding the ChatGPT interaction from task initiation to completion. We envision this work as an initial step towards the widespread implementation of co-piloted auditing, paving the way for more efficient, accurate, and insightful audit procedures.
