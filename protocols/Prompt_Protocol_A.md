@@ -5,7 +5,6 @@ This protocol outlines the process for conducting financial ratio analysis, an e
 
 ## MIT License
 
-
 Copyright (c) 2023 Continous Audit and Reporting (CAR) Lab 
 at Rutgers University, 1 Washington Park, NJ, USA
 
@@ -27,7 +26,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-### Experiment Details
+## Experiment Details
 
 
 | Audit Task       | Financial Ratio Analysis |
@@ -39,6 +38,10 @@ SOFTWARE.
 | Model Interface  | Open AI’s ChatGPT        |
 | Experiment Date  | 04/25/2023               |
 
+
+## Prompt Protcol
+
+In the following the prompts of the financial ratio analysis task are presented: 
 
 ### 1. Task Explanation Prompt
 ```
