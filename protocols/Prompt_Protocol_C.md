@@ -1,7 +1,7 @@
 
-# Prompt Protocol Experiment C: Journal Entry Testing
+# Experiment C: Audit Task - Journal Entry Testing
 
-This protocol outlines the process for auditing tabular financial transactions, also referred to as "journal entries".
+This protocol outlines the process for auditing journal entries. 
 
 ## MIT License
 
@@ -26,6 +26,24 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+## Experiment Details
+
+
+| Audit Task       | Journal Entry Testing     |
+|------------------|---------------------------|
+| Audit Standards  | ISA / AICPA 240           |
+| Audit Evidence   | Journal Entries           |
+| Data Modality    | Tabular Data              |
+| Foundation Model | GPT-4 (March 14 Release)  |
+| Model Interface  | OpenAI’s ChatGPT          |
+| Experiment Date  | 04/25/2023                |
+
+
+## Prompt Protcol
+
+In the following the prompts of the journal entry testing task are presented: 
 
 
 ### 1. Task Explanation Prompt
