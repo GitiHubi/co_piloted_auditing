@@ -3,8 +3,8 @@
 
 This protocol outlines the process for conducting a post implementation review.
 
-## MIT License
 
+## MIT License
 
 Copyright (c) 2023 Continous Audit and Reporting (CAR) Lab 
 at Rutgers University, 1 Washington Park, NJ, USA
@@ -27,10 +27,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+
 ## Experiment Details
 
-
-| Audit Task       | Financial Ratio Analysis             |
+| Audit Task       | Post Implementation Review           |
 |------------------|--------------------------------------|
 | Audit Standards  | GASB Statement No. 68                |
 | Audit Evidence   | Muncipal Financial Reports           |
