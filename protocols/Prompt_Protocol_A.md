@@ -1,7 +1,7 @@
 
-# Experiment A: <add prompt header here>
+# Experiment A: Audit Task - Financial Ratio Analysis
 
-Experiment A: Audit Task - Financial Ratio Analysis
+This protocol outlines the process for conducting financial ratio analysis, an essential aspect of audit risk assessments.
 
 ## MIT License
 
@@ -26,6 +26,18 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+### Experiment Details
+
+
+| Audit Task       | Financial Ratio Analysis |
+|------------------|--------------------------|
+| Audit Standards  | ISA / AICPA 315          |
+| Audit Evidence   | BS and P&L Line Items    |
+| Data Modality    | Tabular Data             |
+| Foundation Model | GPT-4 (March 14 Release) |
+| Model Interface  | Open AI’s ChatGPT        |
+| Experiment Date  | 04/25/2023               |
 
 
 ### 1. Task Explanation Prompt
