@@ -1,7 +1,7 @@
 
-# Experiment B: <add prompt header here>
+# Experiment B: Audit Task - Post Implementation Review
 
- <add protocol description here>
+This protocol outlines the process for conducting a post implementation review.
 
 ## MIT License
 
@@ -26,6 +26,23 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## Experiment Details
+
+
+| Audit Task       | Financial Ratio Analysis             |
+|------------------|--------------------------------------|
+| Audit Standards  | GASB Statement No. 68                |
+| Audit Evidence   | Muncipal Financial Reports           |
+| Data Modality    | Textual Data                         |
+| Foundation Model | GPT-4 (March 14 Release)             |
+| Model Interface  | OpenAI’s Playground (Chat Mode GPT4) |
+| Experiment Date  | 04/25/2023                           |
+
+
+## Prompt Protcol
+
+In the following the prompts of the post implementation review task are presented: 
 
 
 ### 1. Task Explanation Prompt
